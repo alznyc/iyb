@@ -24,9 +24,9 @@ class ActivitiesPage extends StatelessWidget {
                   new Padding(padding: EdgeInsets.all(5.0)),
                   RaisedButton(
                     child: new Text('I Want to Eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
-                    color: Colors.green,
+                    color: Colors.deepOrange,
                     elevation: 2.0,
-                    splashColor: Colors.deepOrange,
+                    splashColor: Colors.green,
                     padding: EdgeInsets.all(10.0),
 
                     onPressed: () {
@@ -46,9 +46,9 @@ class ActivitiesPage extends StatelessWidget {
                     new Padding(padding: EdgeInsets.all(5.0)),
                     RaisedButton(
                       child: new Text('I Want Chewy', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
-                      color: Colors.green,
+                      color: Colors.deepOrange,
                       elevation: 2.0,
-                      splashColor: Colors.deepOrange,
+                      splashColor: Colors.green,
                       padding: EdgeInsets.all(10.0),
 
                       onPressed: () {
@@ -68,9 +68,9 @@ class ActivitiesPage extends StatelessWidget {
                     new Padding(padding: EdgeInsets.all(5.0)),
                     RaisedButton(
                       child: new Text('I want to eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
-                      color: Colors.green,
+                      color: Colors.deepOrange,
                       elevation: 2.0,
-                      splashColor: Colors.deepOrange,
+                      splashColor: Colors.green,
                       padding: EdgeInsets.all(10.0),
 
                       onPressed: () {
@@ -90,9 +90,9 @@ class ActivitiesPage extends StatelessWidget {
                     new Padding(padding: EdgeInsets.all(5.0)),
                     RaisedButton(
                       child: new Text('I want to eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
-                      color: Colors.green,
+                      color: Colors.deepOrange,
                       elevation: 2.0,
-                      splashColor: Colors.deepOrange,
+                      splashColor: Colors.green,
                       padding: EdgeInsets.all(10.0),
 
                       onPressed: () {
@@ -112,9 +112,9 @@ class ActivitiesPage extends StatelessWidget {
                     new Padding(padding: EdgeInsets.all(5.0)),
                     RaisedButton(
                       child: new Text('I want to eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
-                      color: Colors.green,
+                      color: Colors.deepOrange,
                       elevation: 2.0,
-                      splashColor: Colors.deepOrange,
+                      splashColor: Colors.green,
                       padding: EdgeInsets.all(10.0),
 
                       onPressed: () {
@@ -133,9 +133,9 @@ class ActivitiesPage extends StatelessWidget {
                     new Padding(padding: EdgeInsets.all(5.0)),
                     RaisedButton(
                       child: new Text('I want to eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
-                      color: Colors.green,
+                      color: Colors.deepOrange,
                       elevation: 2.0,
-                      splashColor: Colors.deepOrange,
+                      splashColor: Colors.green,
                       padding: EdgeInsets.all(10.0),
 
                       onPressed: () {
