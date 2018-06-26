@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'ActSelectedEat.dart';
 
 // Note: for simplicity, this is a stateless widget but, in a real app,
 // a full screen is likely to be a stateful widget.
@@ -19,17 +20,17 @@ class ActivitiesPage extends StatelessWidget {
           new Container (
             child: new Column(
                 children: <Widget>[
-                  Image.asset('images/iman.jpg', height: 240.0),
+                  Image.asset('images/imaneat.jpg', height: 240.0),
                   new Padding(padding: EdgeInsets.all(5.0)),
                   RaisedButton(
-                    child: new Text('I want to eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
+                    child: new Text('I Want to Eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
                     color: Colors.green,
                     elevation: 2.0,
                     splashColor: Colors.deepOrange,
                     padding: EdgeInsets.all(10.0),
 
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => ActivitiesPage()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => ActSelectedEat()));
                     },
                   ),
                   ]
@@ -41,10 +42,10 @@ class ActivitiesPage extends StatelessWidget {
           new Container (
               child: new Column(
                   children: <Widget>[
-                    Image.asset('images/iman.jpg', height: 240.0),
+                    Image.asset('images/imanchewy.jpg', height: 240.0),
                     new Padding(padding: EdgeInsets.all(5.0)),
                     RaisedButton(
-                      child: new Text('I want to eat', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
+                      child: new Text('I Want Chewy', style: new TextStyle(color: Colors.white, fontSize: 20.0)),
                       color: Colors.green,
                       elevation: 2.0,
                       splashColor: Colors.deepOrange,
